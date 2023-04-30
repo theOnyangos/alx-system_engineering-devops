@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Run as non-root user; Take username from first argument passed
+
+sudo -u "$1" whoami
